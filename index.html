@@ -70,23 +70,25 @@
   </amp-analytics>
   <amp-story standalone>
     <amp-story-auto-ads>
+
       <script type="application/json">
         {
             "ad-attributes": {
               "type": "custom",
-              "data-url": "./amp-story-auto-ads-payload.json"
+              "data-url": "./payload.json"
             }
         }
       </script>
 
       <template type="amp-mustache" id="template-1">
-        <amp-img class="fill-img" layout="fill" src="{{imgSrc}}"></amp-img>
+       <amp-img class="fill-img" layout="fill" src="{{imgSrc}}"></amp-img>
       </template>
+
     </amp-story-auto-ads>
 
     <amp-story-page id="fade-in-page">
       <amp-story-grid-layer template="vertical">
-        <h1>fade-in</h1>
+        <h1>Maliek Storyline</h1>
         <div class="circle"
             animate-in="fade-in"
             animate-in-duration="0.8s">
@@ -96,7 +98,7 @@
 
     <amp-story-page id="twirl-in-page">
       <amp-story-grid-layer template="vertical">
-        <h1>twirl-in</h1>
+        <h1>Welcome To Our News</h1>
         <div class="square"
             animate-in="twirl-in">
         </div>
@@ -105,19 +107,20 @@
 
     <amp-story-page id="drop-page"> 
     <amp-story-grid-layer template="vertical"> 
-    <h1>drop-in</h1>
+    <h1>About Us</h1>
     <div class="circle" animate-in="drop"></div>
  </amp-story-grid-layer>
  </amp-story-page> 
 
- <amp-story-page id="whoosh-in-left-page">
- <amp-story-grid-layer template="vertical"> 
-<h1>whoosh-in-left</h1> <div class="square" animate-in="whoosh-in-left"> </div> 
+<amp-story-page id="whoosh-in-left-page">
+<amp-story-grid-layer template="vertical"> 
+<h1>Privacy Policy</h1> 
+<div class="square" animate-in="whoosh-in-left"> </div> 
 </amp-story-grid-layer> 
 </amp-story-page> 
 <amp-story-page id="whoosh-in-right-page"> 
 <amp-story-grid-layer template="vertical">
- <h1>whoosh-in-right</h1> 
+<h1>Contact Us</h1> 
 <div class="square" animate-in="whoosh-in-right"> </div> 
 </amp-story-grid-layer> 
 </amp-story-page> 
